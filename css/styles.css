@@ -188,11 +188,11 @@ margin:100px 100px;
 {
   /* margin-bottom: 1rem; */
 }
-.card-group
+/* .CustomCards
 {
 
   padding: 0px  18px;
-}
+} */
 
 .card-header
 {
@@ -230,6 +230,7 @@ margin:0;
     transform: rotate(0deg);/*Making the image at 0 degree, making the the image vertically*/
 
   }
+
 }
 
 #cta
