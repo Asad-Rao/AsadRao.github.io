@@ -1,0 +1,294 @@
+body {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+  background-color: #ffffff;
+}
+
+/* Whole Section */
+#title {
+  background-color: #371B58;
+}
+.TitleHeading
+{
+  font-size: 5rem;
+    line-height: 1.5;
+}
+/* Adding Top Bottom and Left Right Padding to the Container Fluid  */
+.container-fluid {
+  padding: 3% 15%
+}
+
+/* Adding Padding to the Nav Bar  */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+/* Adding Background Color to the Nav Bar  */
+.navbar-dark {
+  background-color: #371B58;
+}
+
+/* Styling Font Style and Font Size to the Nav Bar Brand */
+.navbar-brand {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:3rem;
+}
+
+/* Styling Font Style and Font Size to the Nav Bar Brand */
+.nav-item {
+  font-family: 'Cabin Condensed', sans-serif;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+/* Styling  Font Size to the Nav Bar content */
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title */
+h1 {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Download Button */
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+.titleimageContainer
+{
+  position:relative;
+
+}
+/* Adjusting the Title Image width */
+.title-image {
+top: 50px;
+  height: 328px;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* Section II */
+#features {
+
+  margin: 10px 0 10px 0;
+    background-color: #ffff;
+position:relative;
+z-index:1;
+}
+
+.LogoIcons {
+  text-align: center;
+  margin: 0 auto 30px auto;
+  color: #5C2E7E;
+}
+
+.Logocolor:hover {
+  color: #87A2FB;
+}
+
+.LogoDiscription {
+  /* font-size: 1.5rem; */
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  margin: auto;
+  color: #000000
+}
+
+.LogoText {
+  text-align: center;
+  margin: auto;
+}
+
+#features {
+  padding: 15% 6% 15%;
+position: relative;
+z-index: 1;
+}
+/* Back ground rollaaaaaaaaaaaaaaaa */
+/* .Background
+{
+  z-index:0;
+} */
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #371B58;
+  color: #ffff;
+}
+
+.TestimonialHealding {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.TestimonialPigeon {
+  width: 30%;
+}
+
+/* .marginline
+{
+
+} */
+/* hr
+{
+border-style: dotted  none none none;
+border-color: white;
+border-width: 20px;
+} */
+.TestimonialText {
+  font-size: 1.2rem;
+}
+
+.marginline {
+  border-style: dotted none none none;
+  border-color: white;
+  border-width: 5px;
+  margin: 40px 0;
+}
+
+
+
+                                    /* Press Section */
+/* .ProductHeading
+{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #837cc3;
+    font-size: 3rem;
+text-align:center;
+padding: 7% 15%;
+}
+.ProductContent
+{
+  text-align:center;
+  padding: 7% 15%;
+} */
+#OtherProducts
+{
+  text-align: center;
+margin:100px 100px;
+}
+.Productheading
+{
+  text-align: center;
+  color:#837cc3;
+  margin-top: 60px;
+
+}
+.Subheading
+{
+  /* margin-bottom: 1rem; */
+}
+.card-group
+{
+
+  padding: 0px  18px;
+}
+
+.card-header
+{
+font-size: 1.75rem;
+font-family: 'Cabin', sans-serif;
+color:#000000;
+margin:0;
+}
+.card-body
+{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+
+  /* .card-img-top {
+      /* height: 302px;
+      width: 250px;
+      .card-img-top { */
+
+    /* width: 200px;
+    object-fit: fill;
+  } */
+@media (max-width:995px)/*When the website width is 900px or samller then cod in the {} is executed*/
+{
+  #title
+  {
+    text-align:center;/*Aligning everything in the title section in the center*/
+  }
+
+  .title-image
+  {
+    position: static;/*Making the image static positon so it follows the html flow and comes right after the buttons*/
+    transform: rotate(0deg);/*Making the image at 0 degree, making the the image vertically*/
+
+  }
+}
+
+#cta
+{
+  text-align: center;/*Text aligining  the text in the center*/
+  background-color:#25316D;/*Giving the background color to the cta section*/
+  margin-bottom: 50px;
+  padding-top: 150px;/*Giving some padding at the top*/
+  padding-bottom:250px;/*Giving some padding at the bottom*/
+    color: #ffff;/*Giving the text color white*/
+}
+.Action
+{
+  font-family: 'Anton', sans-serif;/*Changing the Font style */
+
+  margin-bottom: 37px;
+  font-size: 3rem;/*Changing the Font size*/
+}
+.customicons
+{
+  color: white;
+  font-size: 2rem;
+
+  }
+  .custombuttons
+  {
+    background-color:#3AB0FF;
+    margin: 0 10px;/*Separating button apart at some distance*/
+    padding: 0 2%;
+    border-radius: 10px;
+    }
+  .custombuttons:hover
+  {
+background-color:#DBDFFD;
+    }
+
+                                   /*Footer Sections*/
+#footer
+{
+  padding: 7% 15%;/*Giving some padding on all four side to the footer*/
+  height: 300px;
+margin-top: 13%;
+  background-color:#2D2849;
+  text-align: center;/*Cebter aligning the text in the footer  */
+  color: white;
+  font-size: 2rem;
+
+
+}
+
+.copyright
+{
+padding:1% 0%;
+}
+.customlinks
+{
+  margin: 0 2%;/*Adding margin to provide some distance between the icons*/
+}
+.customlinks:hover
+{
+  color: gold;
+}
